@@ -33,13 +33,6 @@ This process ensured that the dataset was consistent, reliable, and ready for an
 - **Structure:** Single fact table with calculated columns for duration, duration bins, and start time ,   
 - **Approach:** DAX measures and calculated columns for KPIs and visual breakdowns  
 
-## 🧮 Key DAX Measures
-```DAX
-Total Trips = COUNTROWS('Trips')
-Average Trip Distance = ROUND(AVERAGE('Trips'[Miles]), 1)
-Average Trip Duration = AVERAGE('Trips'[Duration_Min])
----
-
 ## 📂 Repository Structure 
 
 ---
@@ -50,4 +43,9 @@ Average Trip Duration = AVERAGE('Trips'[Duration_Min])
 ![Dashboard](Screenshots/Overview.PNG)
 ![Rush Hour Analysis](Screenshots/Rush%20hour.PNG)
 
+## 🧮 Key DAX Measures
+```DAX
+Total Trips = COUNTROWS('Trips')
+Average Trip Distance = ROUND(AVERAGE('Trips'[Miles]), 1)
+Average Trip Duration = AVERAGE('Trips'[Duration_Min])
 ---
