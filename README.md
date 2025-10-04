@@ -21,7 +21,7 @@ Data was prepared in Power BI’s **Power Query Editor** to ensure accuracy and 
 - Unified all **datetime columns** into `DD/MM/YYYY` format  
 - Calculated **trip duration (minutes)** from start and end times  
 - Created **duration bins** (15-minute intervals) for better analysis  
-- Added a **Start Time column** to identify rush hours  
+- Added a **Start Time (hour)** to identify rush hours  
 
 This process ensured the dataset was clean, reliable, and ready for analysis.  
 
