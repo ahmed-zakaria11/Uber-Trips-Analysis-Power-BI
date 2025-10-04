@@ -7,6 +7,12 @@ By applying **Power Query transformations**, **DAX measures**, and **interactive
 
 ---
 
+## 📑 Dataset  
+- **Source:** Uber trips dataset  
+- **Columns:** start date, end date, start location, end location, miles, trip purpose, category  
+- **Rows:** 1,155  
+---
+
 ## 🧹 Data Cleaning & Transformation  
 Data was prepared in Power BI’s **Power Query Editor** to ensure accuracy and consistency:  
 - Replaced all `null` values with **"Unknown"**  
@@ -19,19 +25,13 @@ Data was prepared in Power BI’s **Power Query Editor** to ensure accuracy and 
 
 This process ensured the dataset was clean, reliable, and ready for analysis.  
 
----
-
-## 🧱 Data Model  
-- **Source:** Uber trips dataset  
-- **Structure:** Single fact table with calculated columns for duration, duration bins, and start time  
-- **Approach:** DAX measures and calculated columns for KPIs and breakdowns  
 
 ---
 
 ## 📈 Dashboard Design  
 - KPIs for **total trips, average distance, and average duration**  
-- Heatmaps of **pickup and drop-off locations**  
-- Breakdown of **trip purposes (Business vs Personal)**  
+- Bar charts of **pickup and drop-off locations**  
+- Breakdown of **trip category (Business vs Personal)**  
 - **Rush-hour analysis** with hourly distribution  
 - Duration analysis using **15-minute bins**  
 - Insights into top cities, distance ranges, and busiest travel times  
@@ -40,12 +40,18 @@ This process ensured the dataset was clean, reliable, and ready for analysis.
 
 ## 🔑 Key Insights  
 - **Business trips** make up the majority of total trips compared to personal travel  
-- Clear **rush-hour peaks** in the morning and evening commute times  
-- Most trips last **15–30 minutes** and cover short to medium distances  
-- Certain cities and locations consistently act as **top pickup/drop-off hubs**  
+- Clear **rush-hour peaks** between 1:00 pm and 6:00 pm 
+- Most trips last **under 15 minutes** or **15-30 minutes** and cover short to medium distances  
+- **Cary** is the **top pickup/drop-off location**
+- **Meeting** is the most commen purpose
+- Average trip distance is **11 miles** while average duration is **23 minutes** 
 
 ---
 
+## 🚀 Tools Used
+- **Power BI Desktop**
+- 
+---
 ## 📖 Learning Outcome  
 This project demonstrates the ability to:  
 - Clean and transform raw trip data with Power Query  
@@ -56,7 +62,10 @@ This project demonstrates the ability to:
 ---
 
 ## 📂 Repository Structure  
-
+📂 Dataset
+📂 Screenshots
+📄 README.md
+📄 Uber.pbix
 ---
 
 ## 🖼️ Dashboard  
