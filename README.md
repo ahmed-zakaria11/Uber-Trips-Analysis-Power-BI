@@ -50,7 +50,6 @@ This process ensured the dataset was clean, reliable, and ready for analysis.
 
 ## 🚀 Tools Used
 - **Power BI Desktop**
-- 
 ---
 ## 📖 Learning Outcome  
 This project demonstrates the ability to:  
